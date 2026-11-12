@@ -1,0 +1,12 @@
+# <tipo>(<alcance>): <descripción corta>  (máx. 72 caracteres)
+#
+# Cuerpo opcional: explica el qué y el porqué, no el cómo.
+#
+# Pie opcional:
+# Refs: #123
+# Closes: #456
+# BREAKING CHANGE: descripción del cambio incompatible
+#
+# Tipos permitidos: feat, fix, docs, style, refactor, test, chore, ci
+# Ejemplo:
+# feat(auth): añade validación de usuario

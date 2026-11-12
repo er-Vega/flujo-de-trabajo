@@ -1,0 +1,50 @@
+name: Feature request
+description: Proponer una nueva funcionalidad
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por proponer una mejora. Describe el problema y tu propuesta.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema / necesidad
+      description: ¿Qué problema resuelve esta funcionalidad?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Propuesta
+      description: Describe la solución deseada.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterios de aceptación
+      description: Lista verificable.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioridad estimada
+      options:
+        - Baja
+        - Media
+        - Alta
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Verificaciones
+      options:
+        - label: He buscado en Issues existentes.
+          required: true

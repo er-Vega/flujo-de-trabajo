@@ -1,0 +1,58 @@
+name: Bug report
+description: Reportar un error
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportar un bug. Completa los campos para ayudarnos a reproducirlo.
+  - type: input
+    id: summary
+    attributes:
+      label: Resumen
+      description: Descripción breve del problema.
+      placeholder: "El login falla con credenciales válidas"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Pasos numerados.
+      placeholder: |
+        1. Ir a '...'
+        2. Hacer clic en '...'
+        3. Ver error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamiento esperado
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportamiento actual
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Entorno
+      description: SO, JDK, versión de la app, etc.
+      placeholder: "Ubuntu 24.04, JDK 17, main@abc123"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / trazas
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Verificaciones
+      options:
+        - label: He buscado en Issues existentes.
+          required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discusiones
+    url: https://github.com/JoseArydOjeda/Construccion_Proyecto/discussions
+    about: Para preguntas generales y propuestas abiertas.
+  - name: AGENTS.md
+    url: https://github.com/JoseArydOjeda/Construccion_Proyecto/blob/main/AGENTS.md
+    about: Límites y responsabilidades de los agentes de IA.
