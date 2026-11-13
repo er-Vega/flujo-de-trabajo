@@ -23,4 +23,4 @@ jobs:
 
     - name: Compilar y ejecutar pruebas (Maven)
       working-directory: ./proyecto-prueba
-      run: mvn -B test
+      run: cd proyecto-prueba && mvn -B test
