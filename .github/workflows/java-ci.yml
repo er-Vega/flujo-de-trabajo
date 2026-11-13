@@ -22,4 +22,5 @@ jobs:
         cache: maven
 
     - name: Compilar y ejecutar pruebas (Maven)
+      working-directory: ./proyecto-prueba
       run: mvn -B test
