@@ -20,7 +20,9 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+        cache-dependency-path: 'proyecto-prueba/pom.xml'
 
     - name: Compilar y ejecutar pruebas (Maven)
-      working-directory: ./proyecto-prueba
-      run: cd proyecto-prueba && mvn -B test
+      run: |
+        cd proyecto-prueba
+        mvn -B test
