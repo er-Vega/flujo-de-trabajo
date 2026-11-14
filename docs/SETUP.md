@@ -142,3 +142,5 @@ Convenciones Java: paquetes en minúsculas, clases en PascalCase.
 - `CONTRIBUTING.md` — flujo de contribución.
 - `AGENTS.md` — límites y responsabilidades de agentes de IA.
 - `.github/workflows/java-ci.yml` — pipeline de CI.
+
+cambios
